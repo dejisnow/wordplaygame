@@ -1,1 +1,100 @@
+body {
+    
+}
+
+.lockDiv{
+    display:flex;
+    flex-direction:column;
+}
+.password{
+    font-size:14px;
+}
+.topLock{
+    border-left:10px #bbcf20 solid;
+    border-top:10px #aff2ff solid;
+    border-right:10px #bbcf20 solid;
+    width:100px;
+    height:50px;
+    text-align:center ;
+    position:relative ;
+    
+}
+.topLock.active{
+    animation:animate 2s ease ;
+}
+.bottom{
+width:120px;
+background-color:#aff2ff;
+height:150px;
+
+}
+.gameDiv{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:100%;
+}
+.num{
+margin-left:20px;
+    width:300px;
+    height:150px;
+    background-color:#fffbe0;
+    display:grid;
+    
+    
+    text-align:center ;
+}
+.inputDiv{
+    display:grid;
+    justify-content:center ;
+    align-items:center ;
+}
+.inputWord{
+    width:200px;
+    text-align:center ;
+    height:40px;
+}
+
+.key{
+
+    padding:60px;
+    margin:5px;
+    margin-top:300px;
+
+    
+    background-color:#ddf002;
+    
+}
+.num span{
+    padding:10px;
+    border:2px solid #dddb0c;
+}
+.btnDiv{
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+}
+.btnDiv button{
+    padding:10px;
+    margin:15px;
+    background-color:#ebeeff;
+    box-shadow:1px 2px 3px grey;
+}
+
+@keyframes animate {
+    
+   0%{
+       top:0%;
+   }
+   100%{
+       top:-5%;
+       
+   }
+   
+    
+    
+}
+
+
+
 
